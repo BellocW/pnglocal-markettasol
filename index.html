@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PNG Marketplace</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>PNG Marketplace</h1>
+        <p>Buy and sell local products — Proudly Papua New Guinea 🇵🇬</p>
+    </header>
+
+
+    <main>
+        <section class="block" id="add-product">
+            <h2>Add a Product</h2>
+            <input id="name" placeholder="Product name" />
+            <input id="price" placeholder="Price (K)" />
+            <input id="image" placeholder="Image URL (optional)" />
+            <textarea id="desc" placeholder="Short description"></textarea>
+            <button id="postBtn">Post Product</button>
+            <p id="status" class="small"></p>
+        </section>
+
+
+        <section class="block" id="product-list">
+            <h2>Products</h2>
+            <div id="products"></div>
+        </section>
+    </main>
+
+
+    <footer>
+        <small>Made for PNG locals • No fees • Simple</small>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
